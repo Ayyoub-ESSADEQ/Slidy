@@ -1,0 +1,13 @@
+{
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript"
+    ],
+    "files.exclude": {
+      ".chatgpt": true,
+      ".chatGPT.json": true
+    },
+    "explorer.sortOrder": "type"
+  }
+  

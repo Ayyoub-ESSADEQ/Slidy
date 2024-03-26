@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    "office-addins"
+  ],
+  "extends": [
+    "plugin:office-addins/recommended"
+  ],
+  "globals": {
+    "document": "readonly",
+    "window": "readonly",
+    "Office": "readonly"
+  },
+  "env": {
+    "browser": true
+  }
+}
