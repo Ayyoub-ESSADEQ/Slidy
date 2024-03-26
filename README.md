@@ -17,4 +17,4 @@ Offline controller for your PowerPoint presentation.
     2. navigate to `./PowerPoint Plugin` (you can use `cd ./PowerPoint Plugin`) and run `npm install`. When all the packages are installed, execute `npm start`. At this point, a PowerPoint instance will be created and the plugin will appears in a side panel.
     3. Click on inspect in the side panel, and navigate to 
     `https://{your_phone_ip_address}:8887`. Click on that link and accept the certificate. This is necessary, because PowerPoint plugins doesn't allow connection over http, so I used a **self-signed-certificate** to create an https server on the phone. Note : your ip address will show up in the mobile application.
-    4. Open `./Slidy Android App` in android studio and build the application. 
+    4. Open `./Slidy Android App` in android studio and build the application and you're ready to go. 
